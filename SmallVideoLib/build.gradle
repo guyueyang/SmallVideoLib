@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 11
+        versionName "1.1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+    publish {
+
+        userOrg = 'mabeijianxi'//bintray.com用户名
+        groupId = 'com.mabeijianxi'//jcenter上的路径
+        artifactId = 'small-video-record'//项目名称
+        publishVersion = '1.1.0'//版本号
+        desc = '利用FFmpeg来小视频录制与压缩处理!'//描述，不重要
+        website = 'https://github.com/mabeijianxi/small-video-record'//网站，不重要
+
+    }
+}
