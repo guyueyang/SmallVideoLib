@@ -24,8 +24,8 @@ android {
 
     publish {
 
-        userOrg = 'mabeijianxi'//bintray.com用户名
-        groupId = 'com.mabeijianxi'//jcenter上的路径
+        userOrg = 'guyueyang'//bintray.com用户名
+        groupId = 'com.guyueyang'//jcenter上的路径
         artifactId = 'small-video-record'//项目名称
         publishVersion = '1.1.0'//版本号
         desc = '利用FFmpeg来小视频录制与压缩处理!'//描述，不重要
