@@ -13,6 +13,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+//import com.guyueyang.smallvideolib.adapter.camera.MediaRecorderActivity;
+
 import mabeijianxi.camera.MediaRecorderActivity;
 
 

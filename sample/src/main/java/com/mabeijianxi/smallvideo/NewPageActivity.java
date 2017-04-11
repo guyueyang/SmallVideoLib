@@ -10,6 +10,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
+//import com.guyueyang.smallvideolib.adapter.camera.Listener.MediaRecorderListener;
+//import com.guyueyang.smallvideolib.adapter.camera.MediaRecorderActivity;
+//import com.guyueyang.smallvideolib.adapter.camera.VCamera;
+//import com.guyueyang.smallvideolib.adapter.camera.model.AutoVBRMode;
+//import com.guyueyang.smallvideolib.adapter.camera.model.BaseMediaBitrateConfig;
+//import com.guyueyang.smallvideolib.adapter.camera.model.MediaRecorderConfig;
+//import com.guyueyang.smallvideolib.adapter.camera.util.DeviceUtils;
+//import com.guyueyang.smallvideolib.adapter.camera.util.MediaRecorder;
 import com.mabeijianxi.smallvideo.Event.DeleteEvent;
 
 import java.io.File;

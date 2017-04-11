@@ -14,6 +14,14 @@ import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+//
+//import com.guyueyang.smallvideolib.adapter.camera.VCamera;
+//import com.guyueyang.smallvideolib.adapter.camera.model.AutoVBRMode;
+//import com.guyueyang.smallvideolib.adapter.camera.model.BaseMediaBitrateConfig;
+//import com.guyueyang.smallvideolib.adapter.camera.model.CBRMode;
+//import com.guyueyang.smallvideolib.adapter.camera.model.MediaRecorderConfig;
+//import com.guyueyang.smallvideolib.adapter.camera.model.VBRMode;
+//import com.guyueyang.smallvideolib.adapter.camera.util.DeviceUtils;
 
 import java.io.File;
 import java.util.List;

@@ -17,6 +17,10 @@ import android.view.View.OnClickListener;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
+//import com.guyueyang.smallvideolib.adapter.camera.MediaRecorderBase;
+//import com.guyueyang.smallvideolib.adapter.camera.util.DeviceUtils;
+//import com.guyueyang.smallvideolib.adapter.camera.util.StringUtils;
+//import com.guyueyang.smallvideolib.adapter.camera.views.SurfaceVideoView;
 import com.mabeijianxi.smallvideo.Event.DeleteEvent;
 
 import de.greenrobot.event.EventBus;
